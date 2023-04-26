@@ -3,8 +3,8 @@ services:
   noticeboard:
     image: hysy9255/noticeboard:1.0.0
     ports:
-      - 3000:3000
+      - 80:3000
   auth:
     image: hysy9255/auth:1.0.0
     ports:
-      - 8000:8000
+      - 81:8000
